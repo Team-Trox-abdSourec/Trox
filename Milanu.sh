@@ -4,7 +4,7 @@ THIS_DIR=$(cd $(dirname $0); pwd)
 Version=`lsb_release -rs | cut -f1 -d"."`
 install() {
 echo -e "\033[0;36m"
-echo -e "~ Welcome To Source Abd-Rio - اهلا بك في سورس ~"
+echo -e "~ Welcome To Source  - اهلا بك في سورس ~"
 echo -e "     ~ { Setting Up Offices - جاري رفع المكاتب } ~"
 echo -e "\033[0m"
 sudo apt-get update -y
